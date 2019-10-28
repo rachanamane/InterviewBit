@@ -1,5 +1,3 @@
-package DynamicProgramming;
-
 public class Fibonacchi {
 
     //brute-force

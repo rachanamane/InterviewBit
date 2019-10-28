@@ -1,5 +1,3 @@
-package DynamicProgramming;
-
 public class Knapsack {
 
     static int knapSack(int W, int[] wt, int[] val, int n) {

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="Math:main" external.linked.project.path="$MODULE_DIR$/../../Math" external.root.project.path="$MODULE_DIR$/../../Math" external.system.id="GRADLE" external.system.module.group="Math" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../Math" rootProjectPath="$MODULE_DIR$/../../Math" />
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../Math/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../Math/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../Math/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Math/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

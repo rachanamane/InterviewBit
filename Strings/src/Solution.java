@@ -73,11 +73,30 @@ public class Solution {
         return answerLength;
     }
 
+    /**
+     * https://www.interviewbit.com/problems/amazing-subarrays/
+     */
+    public static int amazingSumarray(String A) {
+        int total = 0;
+        for (int i = 0; i < A.length(); i++) {
+            if (isVowel(A.charAt(i))) {
+                total += (A.length()-i);
+            }
+        }
+
+        return total % 10003;
+    }
+
+    private static boolean isVowel(char a) {
+        return a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U' || a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u';
+    }
+
 
     public static void main(String[] args) {
 //        System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
 //        System.out.println(strStr("b","baba"));
-//        System.out.println(solve("rachana is a good girl"));
-        System.out.println(lengthOfLastWord("rachana mane"));
+//        System.out.println(solve("test a te"));
+//        System.out.println(lengthOfLastWord("rachana mane"));
+        System.out.println(amazingSumarray("ABEC"));
     }
 }
